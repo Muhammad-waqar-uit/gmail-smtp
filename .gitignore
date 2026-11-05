@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tgz
+*.tar.gz
+.env
+.env.*
+coverage/
+.idea/
+.vscode/
+*.log

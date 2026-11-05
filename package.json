@@ -1,0 +1,57 @@
+{
+  "name": "@waqar/gmail-smtp",
+  "version": "1.0.0",
+  "description": "Tiny wrapper around nodemailer for sending mail through Gmail SMTP with an app password.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-waqar-uit/gmail-smtp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Muhammad-waqar-uit/gmail-smtp/issues"
+  },
+  "homepage": "https://github.com/Muhammad-waqar-uit/gmail-smtp#readme",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "gmail",
+    "smtp",
+    "nodemailer",
+    "email",
+    "mailer",
+    "typescript",
+    "app-password",
+    "gmail-api",
+    "mail-sender"
+  ],
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/nodemailer": "^6.4.17",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

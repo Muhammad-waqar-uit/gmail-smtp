@@ -1,4 +1,4 @@
-# @waqar/gmail-smtp
+# gmail-smtp
 
 A minimal TypeScript wrapper around [nodemailer](https://nodemailer.com/) for sending email through Gmail SMTP using an app password.
 
@@ -13,7 +13,7 @@ A minimal TypeScript wrapper around [nodemailer](https://nodemailer.com/) for se
 ## Install
 
 ```sh
-npm install @waqar/gmail-smtp
+npm install gmail-smtp
 ```
 
 Requires **Node.js 18+**.
@@ -33,7 +33,7 @@ GMAIL_FROM_NAME=Your Name                 # optional
 ## Usage
 
 ```ts
-import { createMailer } from "@waqar/gmail-smtp";
+import { createMailer } from "gmail-smtp";
 
 const mailer = createMailer();
 

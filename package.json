@@ -1,5 +1,5 @@
 {
-  "name": "@waqar/gmail-smtp",
+  "name": "gmail-smtp",
   "version": "1.0.0",
   "description": "Tiny wrapper around nodemailer for sending mail through Gmail SMTP with an app password.",
   "license": "MIT",
